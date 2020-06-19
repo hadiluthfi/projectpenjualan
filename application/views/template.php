@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SI POLI</title>
+    <title>Penjualan</title>
     <link rel="shortcut icon" type="image/png" href="<?php echo base_url()?>assets/icon/favicon.png"/>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -38,9 +38,9 @@
         <!-- Logo -->
         <a href="" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>POLI</b></span>
+          <span class="logo-mini"><b>penjualan</b></span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>SI POLI</b></span>
+          <span class="logo-lg"><b>PENJUALAN</b></span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
@@ -81,18 +81,16 @@
                         
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-bars"></i><span>PEMERIKSAAN</span>
+                    <i class="fa fa-bars"></i><span>PENJUALAN</span>
                     <i class="fa fa-angle-double-left"></i>
                 </a>
                 <ul class="treeview-menu">
                    
                     <li>
-                        <?php echo anchor('periksa','<i class="fa fa-home"></i> <span>TINDAKAN PEMERIKSAAN</span>'); ?>
+                        <?php echo anchor('penjualan','<i class="fa fa-home"></i> <span>PENJUALAN</span>'); ?>
                     </li>
                     
-                    <li>
-                        <?php echo anchor('periksa/daftar_periksa','<i class="fa fa-home"></i> <span>DAFTAR PEMERIKSAAN</span>'); ?>
-                    </li>
+                  
                   
                 </ul>
             </li>
@@ -100,20 +98,18 @@
              
              <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-bars"></i><span>TINDAKAN</span>
+                    <i class="fa fa-bars"></i><span>PRODUK</span>
                     <i class="fa fa-angle-double-left"></i>
                 </a>
                 <ul class="treeview-menu">
-                   <li>
-                    <?php echo anchor('poli','<i class="fa fa-home"></i> <span>POLI</span>'); ?>
-                  </li>
+                  
                   
                   <li>
                     <?php echo anchor('kategori','<i class="fa fa-home"></i> <span>KATEGORI</span>'); ?>
                   </li>
                   
                   <li>
-                    <?php echo anchor('tindakan','<i class="fa fa-home"></i> <span>TINDAKAN</span>'); ?>
+                    <?php echo anchor('produk','<i class="fa fa-home"></i> <span>PRODUK</span>'); ?>
                   </li>
                   
                 </ul>
@@ -122,13 +118,13 @@
             
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-bars"></i><span>PASIEN</span>
+                    <i class="fa fa-bars"></i><span>CUSTOMER</span>
                     <i class="fa fa-angle-double-left"></i>
                 </a>
                 <ul class="treeview-menu">
                    
                     <li>
-                        <?php echo anchor('pasien','<i class="fa fa-home"></i> <span>PASIEN</span>'); ?>
+                        <?php echo anchor('customer','<i class="fa fa-home"></i> <span>CUSTOMER</span>'); ?>
                     </li>
                   
                 </ul>
@@ -165,7 +161,7 @@ echo $contents;
         <div class="pull-right hidden-xs">
           <b>Version</b> 1.0.0
         </div>
-        <strong>Copyright &copy 2020 - Sistem Informasi Klinik by Hoscloud - All Right Reserved
+        <strong>Copyright &copy 2020 - Sistem Penjualan Sederhana by Hoscloud - All Right Reserved
       </footer>
 
       <!-- Add the sidebar's background. This div must be placed

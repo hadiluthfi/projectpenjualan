@@ -15,8 +15,8 @@
                     <div class="form-group">
                     </div>
                       <div class="form-group">
-                      <label for="exampleInputPassword1">Nama pategori</label>
-                      <input type="text" name="kategori" required="" class="form-control" placeholder="Masukan Nama Provinsi">
+                      <label for="exampleInputPassword1">Nama Kategori</label>
+                      <input type="text" name="kategori" required="" class="form-control" placeholder="Masukan Nama Kategori">
                     </div>
                       
                       

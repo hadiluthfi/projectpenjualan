@@ -6,7 +6,6 @@ class Model_kategori extends CI_Model {
         $query="select * from kategori";
         return $this->db->query($query);
     }
-    
     function tambah($data){
         $this->db->insert('kategori',$data);
     }
